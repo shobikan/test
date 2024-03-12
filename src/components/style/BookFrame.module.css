@@ -1,0 +1,31 @@
+.book-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 20vw;
+    padding: 20px;
+    background-color: #cccccc;
+    border-radius: 10px;
+}
+
+.book-image {
+    width: 200px;
+    /* Set the width of the book image */
+    height: auto;
+    /* Maintain aspect ratio */
+    margin-bottom: 10px;
+    /* Add some space below the image */
+}
+
+.book-info {
+    text-align: center;
+    /* Center-align the book information */
+    margin-bottom: 5px;
+    /* Add space below the book information */
+}
+
+.availability-status {
+    text-align: center;
+    /* Center-align the availability status */
+}

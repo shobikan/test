@@ -1,0 +1,68 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    margin-top: 10px;
+    margin-left: -25%;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between; /* To evenly space buttons in the container */
+}
+
+.savebutton{
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px; /* Adjust padding as needed */ 
+    background-color: green;
+    margin: 2%;
+    border-radius: 20px;
+}
+.cancelbutton {
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px; /* Adjust padding as needed */
+  background-color: red;
+  margin: 2%;
+  border-radius: 20px;
+}
+
+.savebutton:hover {
+  background-color: rgb(131, 222, 131);
+  
+}
+
+.cancelbutton:hover {
+  background-color: rgb(210, 131, 131);
+}
+
+/* Adjust input field style */
+input[type="text"], input[type="file"] {
+    margin-bottom: 30px; /* Add some gap between each input field */
+    font-size: large;
+}
+
+/* Adjust label style */
+label {
+    margin-bottom: 5px; /* Add some gap between each label */
+    display: block; /* Make label display block so it aligns properly */
+    color: black; /* Set label color */
+    justify-content: left;
+
+}
+
+.inputContainer {
+    position: relative;
+    display: inline-block;
+    
+}
+
+.imageContainer{
+    margin-left: 7%;
+}
